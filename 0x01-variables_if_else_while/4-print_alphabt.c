@@ -10,12 +10,10 @@ int main(void)
 	while 
 		(c <= 'z')
 		{
-			/* skip letter q and e
-			 */
 			if (c != 'q' && c != 'e')
 				putchar(c);
 			c++;
 		}
-	putchar("\n");
+	putchar('\n');
 			return (0);
 		}
