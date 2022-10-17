@@ -1,6 +1,9 @@
 #include <stdio.h>
 /*
  * main - Entry
+ *
+ * Description: reverse alphbet
+ *
  * Return: Always 0
  */
 int main(void)
