@@ -5,9 +5,6 @@
  */
 int main(void)
 {
-	/* function main -display reverse alphabet
-	 *
-	 */
 	char c;
 
 	for (c = 'z'; c >= 'a'; c--)
