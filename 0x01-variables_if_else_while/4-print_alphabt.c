@@ -13,8 +13,9 @@ int main(void)
 			/* skip letter q and e
 			 */
 			if (c != 'q' && c != 'e')
-				putchar(c"\n");
+				putchar(c);
 			c++;
 		}
+	putchar("\n");
 			return (0);
 		}
