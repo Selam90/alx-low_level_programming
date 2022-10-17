@@ -16,8 +16,10 @@
 					        printf("%d is zero\n", n);        
 						 } else        
 							  {                
-								   printf("%d is positive\n", n);        
-								    }       
-						   return (0);
-						    }
-
+								   printf("%d
+										   is
+										   positive\n",
+										   n);
+							  }      
+ return 0
+ }
