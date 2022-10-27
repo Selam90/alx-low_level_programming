@@ -2,23 +2,27 @@
 /**
  * leet - encodes
  * @n: input
+ * @a:
  * Return: the value
  */
-char *leet(char *)
+char *leet(char *a)
 {
-	int i, j;
-	char s1[] = "aAeEoOtTlL";
-	char s2[] = "4433007711";
+	int i = 0;
+	int j;
+	int l = 5;
 
-	for (i = 0; n[i] != '\0'; i++)
+	char s1[] = {'A', 'E', 'O', 'T', 'L'};
+	char s2[] = {'4', '3', '0', '7', '1'};
+
+	while (a[i])
 	{
-		for (j = 0; j < 10; j++)
+		j = 0;
+		while (b < l)
 		{
-			if (n[i] == s1[j])
-			{
-				n[i] = s2[j];
-			}
+			if (a[i] == s[b] || a[i] - 32 == s1[b])
+				a[i] = s2[b];
+			b++;
 		}
-	}
-	return (n);
+		a++;
+		return (a);
 }
