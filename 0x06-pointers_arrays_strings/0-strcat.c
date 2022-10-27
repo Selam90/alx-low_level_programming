@@ -1,16 +1,17 @@
 #include "main.h"
 /**
- * _strcat - concatenates strings
+ *_strncat - concatenates strings
  * @src: source string
  * @dest: a pointer to the resulting string
+ * @n: number
  * Return: A pointer to string @dest
  */
 char *_strncat(char *dest, char *src, int n)
 {
-	int i = 0;
-        int j;
+	int i, j;
 
-	while (dest[i] != '\0' )
+	i = 0;
+	while (dest[i] != '\0')
 	{
 		i++;
 	}
@@ -21,7 +22,6 @@ char *_strncat(char *dest, char *src, int n)
 		i++;
 		j++;
 	}
-		dest[i] = src[j];
-
-	return (dest);
+		dest[i] = '\0';
+		return (dest);
 }
