@@ -5,24 +5,23 @@
  * @a:
  * Return: the value
  */
-char *leet(char *a)
+char *leet(char *n)
 {
-	int i = 0;
+	int i;
 	int j;
-	int l = 5;
 
-	char s1[] = {'A', 'E', 'O', 'T', 'L'};
-	char s2[] = {'4', '3', '0', '7', '1'};
+	char s1[] = "aAeEoOtTlL";
+	char s2[] = "4433007711";
 
-	while (a[i])
+	for (i = 0; n[i] != '\0'; i++;)
 	{
-		j = 0;
-		while (b < l)
+		for (j = 0; n[i] != '\0'; i++)
 		{
-			if (a[i] == s[b] || a[i] - 32 == s1[b])
-				a[i] = s2[b];
-			b++;
+			if (n[i] == s[j])
+			{
+				n[i] == s1[j];
+			}
 		}
-		a++;
-		return (a);
+	}
+		return (n);
 }
