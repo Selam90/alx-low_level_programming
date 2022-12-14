@@ -1,7 +1,8 @@
 #include "main.h"
 #include <stdio.h>
-/*
- * print input upto 98
+/**
+ * print_to_98 - print input upto 98
+ * @n: number
  */
 void print_to_98(int n)
 {
