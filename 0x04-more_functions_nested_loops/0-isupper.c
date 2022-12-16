@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- * _isupper - check upper case
- * @c: integer
- * Return: 
+ * _isupper - check the code
+ * @c: char
+ * Return: success
  */
 int _isupper(int c)
 {
