@@ -1,7 +1,8 @@
 #include <stdio.h>
 /**
- * argc: argc parameter
- * argv: an array
+ * main - print all arguments 
+ * @argc: argc parameter
+ * @argv: an array
  * Return: 0
  */
 int main(int argc, char *argv[])
