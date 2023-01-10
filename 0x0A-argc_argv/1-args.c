@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
- * @argc: argc
- * @argv: 
- * Return: 0 
+ * @argc: argc pariameter
+ * @argv: an array 
+ * Return: 0 for success
  */
 int main(int argc, char *argv[]  __attribute__((unused)))
 {
