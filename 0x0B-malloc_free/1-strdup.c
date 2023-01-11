@@ -4,7 +4,7 @@
  * @str: char
  * Return: 0 in sucsess
  */
- char *_strdup(char *str)
+char *_strdup(char *str)
 {
 	char *a;
 	int i, r = 0;
@@ -15,9 +15,9 @@
 	while (str[i] != '\0')
 		i++;
 	a =  malloc(sizeof(char) * (i + 1));
-	if (aaa == NULL)
+	if (a == NULL)
 		return (NULL);
 	for (r = 0; str[r]; r++)
 		a[r] = str[r];
-	return(a);
+	return (a);
 }
