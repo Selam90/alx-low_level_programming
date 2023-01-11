@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- * str_concat - get ends of input and add together for size
- * @s1: input 
- * @s2: input
+ * str_concat - concat the strings
+ * @s1: input string 1
+ * @s2: input string 2
  * Return: concat of the string
  */
 char *str_concat(char *s1, char *s2)
